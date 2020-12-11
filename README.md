@@ -19,16 +19,15 @@ Trang web gồm các phần:
 - Slogan  
 - Hình Backgroud  
 2. Body: 
-- Thanh điều hướng  
-- Banner tin nóng  
-- Các bài viết bao gồm có hình ảnh    
+- Thanh điều hướng dropdown   
+- Banner tin nóng, 
+- Các bài viết bao gồm chữ và hình ảnh    
 3. Footer: 
 - Thông tin về trang web  
 
-Các hình ảnh và bài viết trong website tham khảo [tại đây](https://wallpaperaccess.com/1920x1080-hd-car) và [tại đây](https://oto.com.vn/)  
-
 ---
 ## Hình ảnh giao diện trang web
+Các hình ảnh và bài viết trong website được tham khảo [tại đây](https://wallpaperaccess.com/1920x1080-hd-car) và [tại đây](https://oto.com.vn/)  
 
 Ảnh 1. ![anh](https://drive.google.com/uc?export=view&id=1W2J0gsMa7DF12n3hOfKfLmJvGlYVd7io)
 
