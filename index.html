@@ -1,75 +1,213 @@
-<html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Landing Page</title>
-    <link rel="StyleSheet" href="./css/style.css">
-
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
-
-</head>
-
-<body>
-    <header>
-        <h1>MySite</h1>
-        <h3>Slogan go here...</h3>
-    </header>
-    <nav>
-        <ul>
-            <li><a data-section="home">Home</a></li>
-            <li><a data-section="services">Services</a></li>
-            <li class="dropdown">
-                <a href="javascript:void(0)" class="dropbtn">Products</a>
-                <div class="dropdown-content">
-                    <a data-section="link1">Link 1</a>
-                    <a data-section="link2">Link 2</a>
-                    <a data-section="link3">Link 3</a>
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link href="https://fonts.googleapis.com/css?family=Montserrat:400,800" rel="stylesheet">
+		<link rel="stylesheet" type="text/css" href="css/style.css">
+		<title>XE ĐẸP</title>
+	</head>
+	<body>
+		<div class="header">
+			<div class="inner_header">
+				<div class="logo_container">
+					<h1>XE<span> ĐẸP</span></h1>
+				</div>
+				<ul class="navigation">
+					<a><li><h3>Tạp chí hàng đầu về xe</h3><li></a>
+				</ul>	
+			</div>
+		</div>
+		
+		<nav class="nav-area">
+			<ul>
+				<li><a href="#">Trang Chủ</a></li>
+				<li><a href="#">Đánh Giá Xe</a></li>
+				<li><a href="#">Xe Điện</a>
+					<ul>
+						<li><a href="#">Tesla</a></li>
+						<li><a href="#">Poscher</a></li>
+						<li><a href="#">Khác</a>
+							<ul>
+								<li><a href="#">Ford</a></li>
+								<li><a href="#">Honda</a></li>
+								<li><a href="#">Madza</a></li>
+							</ul>
+						</li>
+					</ul>
+				</li>
+				<li><a href="#">Bình Chọn</a>
+					<ul>
+						<li><a href="#">Bình Dân</a>
+							<ul>
+								<li><a href="#">Ford</a></li>
+								<li><a href="#">Honda</a></li>
+								<li><a href="#">Madza</a></li>
+							</ul>
+						</li>
+						<li><a href="#">Cao Cấp</a></li>
+					    <li><a href="#">Siêu Sang</a></li>
+					</ul>
+				</li>
+				<li><a href="#">Đóng Góp</a></li>
+			</ul>
+		</nav>
+	
+		<section class = "banner">
+            <div class = "banner-main-content">
+                <h2>Tin tức mới nhất về xe</h2>
+                <h3>Câp nhật hàng giờ</h3>
+                <div class = "current-news-head">
+                    <h3>Chiếc Lamborghini Gallardo hàng hiếm tại Việt Nam đổi chủ mới <span>Đọc thêm</span></h3>
+                    <h3>Đánh giá xe Ford Explorer 2020 thế hệ mới <span>Đọc thêm</span></h3>
+                    <h3>Chiếc Lamborghini Gallardo hàng hiếm tại Việt Nam đổi chủ mới <span>Đọc thêm</span></h3>
+                    <h3>Đánh giá xe Honda Jazz 2020 <span>Đọc thêm</span></h3>
                 </div>
-            </li>
-            <li style="float:right"><a data-section="about">About us</a></li>
-        </ul>
-    </nav>
+            </div>
 
-    <section id="home" class="hideable-section">
-        <div>Home content</div>
-    </section>
+            <div class = "banner-sub-content">
+                <div class = "hot-topic">
+                    <img src = "img/banner-news-1.jpg" alt = "">
 
-    <section id="services" class="hideable-section">
-        <div>Services content</div>
-    </section>
+                    <div class = "hot-topic-content">
+                        <h2>Xe ô tô màu xanh lục hợp với người mệnh gì?</h2>
+                        <p>Theo phong thủy, xe ô tô màu xanh lục (xanh lá cây) hợp với người mệnh Hỏa, mệnh Mộc và khắc với mệnh Thổ.</p>
+                        <a href = "#">Đọc Thêm</a>
+                    </div>
+                </div>
 
-    <section id="about" class="hideable-section">
-        <div>About content</div>
-    </section>
+                <div class = "hot-topic">
+                    <img src = "img/banner-news-2.jpg" alt = "">
 
-    <section id="link1" class="hideable-section">
-        <div>Link1 content</div>
-    </section>
+                    <div class = "hot-topic-content">
+                        <h2>Chọn màu xe nào để hợp tuổi 1990?</h2>
+                        <p>Đối với người sinh năm 1990 hay bất kể năm nào, việc mua xe và chọn xe làm sao cho hợp phong thủy, không xung khắc với ngũ hành bản mệnh là điều vô cùng quan trọng.</p>
+                        <a href = "#">Đọc Thêm</a>
+                    </div>
+                </div>
 
-    <section id="link2" class="hideable-section">
-        <div>Link2 content</div>
-    </section>
+                <div class = "hot-topic">
+                    <img src = "img/banner-news-3.jpg" alt = "">
 
-    <section id="link3" class="hideable-section">
-        <div>Link3 content</div>
-    </section>
+                    <div class = "hot-topic-content">
+                        <h2>Màu titan là màu gì? Màu xe titan hợp với người mệnh gì?</h2>
+                        <p>Có rất nhiều người nhầm tưởng màu titan là màu xám hoặc xanh than đen trong khi không có ít người nghĩ màu titan bắt buộc phải là màu trắng bạc nguyên bản trong hóa học. Vậy chính xác thì màu titan là màu gì?</p>
+                        <a href = "#">Đọc Thêm</a>
+                    </div>
+                </div>
 
-    <script>
-        $(function() {
-            $('nav ul li a').click(function() {
-                // Lấy section để hiển thị
-                var $section = $('#' + $(this).data('section'));
+                <div class = "hot-topic">
+                    <img src = "img/banner-news-4.jpg" alt = "">
 
-                // Nếu đang hiện thì không làm gì.
-                // Nếu không, ẩn tất cả các se cho hiện (kiểu fade in) phần mong muốn.
-                if (!$section.is(':visible')) {
-                    $('.hideable-section').hide();
-                    $section.fadeIn();
-                }
-            });
-        });
-    </script>
-</body>
+                    <div class = "hot-topic-content">
+                        <h2>Đánh giá xe Ford Everest 2021 mới về Việt Nam: Được ít, mất nhiều</h2>
+                        <p>Đội ngũ đánh giá xe Ford Everest 2021 cho rằng bản nâng cấp mới của chiếc SUV không có quá nhiều điểm tích cực mà khách hàng sẽ mất nhiều option hơn.</p>
+                        <a href = "#">Đọc Thêm</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+		
+		<main>
+            <section class = "main-container-left">
+                <h2>Đọc nhiều</h2>
+                <div class = "container-top-left">
+                    <article>
+                        <img src = "img/top-left.jpg">
+                        <div>
+                            <h3>Tem đăng kiểm khác với biển số, chủ xe có bị phạt không?</h3>
+                            <p>Nguyên nhân tem đăng kiểm khác với biển số xe là do chủ xe chuyển đổi chủ hoặc chuyển đổi vùng.</p>
+                            <a href = "#">Đọc Thêm <span>>></span></a>
+                        </div>
+                    </article>
+                </div>
 
+                <div class = "container-bottom-left">
+                    <article>
+                        <img src = "img/bottom-left-1.jpg">
+                        <div>
+                            <h3>5 trường hợp bạn nên tắt điều hòa khi lái xe</h3>
+                            <p>Tắt điều hòa khi đi qua vùng ngập hay tắt điều hòa trước khi leo dốc là những lưu ý hữu ích mà ít lái xe để ý.</p>
+                            <a href = "#">Đọc Thêm <span>>></span></a>
+                        </div>
+                    </article>
+                    <article>
+                        <img src = "img/bottom-left-2.jpg">
+                        <div>
+                            <h3>Đánh giá xe Isuzu mu-X 2021 thế hệ mới</h3>
+                            <p>Isuzu mu-X 2021 thế hệ mới chính là lời đáp trả của hãng xe Nhật đối với Fortuner nâng cấp mới.</p>
+                            <a href = "#">Đọc Thêm <span>>></span></a>
+                        </div>
+                    </article>
+                </div>
+            </section>
+			
+            <section class = "main-container-right">
+                <h2>Bài viết mới</h2>
+                <article>
+                    <h4> Bài viết mới </h4>
+                    <div>
+                        <h2>Giá lăn bánh Honda City 2021 mới nhất tại Việt Nam</h2>
+                        <p>Honda City 2021 thế hệ thứ 5 đã chính thức trình làng với 3 phiên bản. Dưới đây là giá lăn bánh của từng phiên bản cụ thể.</p>
+                        <a href = "#">Đọc Thêm <span>>></span></a>
+                    </div>
+                    <img src = "img/right-1.jpg">
+                </article>
+                <article>
+                    <h4>Bài viết mới </h4>
+                    <div>
+                        <h2>Tầm 600 triệu, nên chọn Honda City hay Kia Rio?</h2>
+                        <p>Trong khi Honda City thiên về khả năng vận hành và an toàn thì Kia Rio lại đúng chuẩn xe gia đình cơ bản. Vậy, đâu mới là lựa chọn tốt nhất trong tầm giá 600 triệu đồng?</p>
+                        <a href = "#">Đọc Thêm <span>>></span></a>
+                    </div>
+                    <img src = "img/right-2.jpg">
+                </article>
+                <article>
+                    <h4>Bài viết mới </h4>
+                    <div>
+                        <h2>So sánh xe Honda City và Mazda 2 Sedan: ông già và trai trẻ</h2>
+                        <p>Honda City mang dáng dấp của 1 mẫu xe dành cho người trung tuổi, trong khi Mazda 2 hừng hực khí thế, thể thao và đậm chất tuổi trẻ.</p>
+                        <a href = "#">Đọc Thêm <span>>></span></a>
+                    </div>
+                    <img src = "img/right-3.jpg">
+                </article>
+                <article>
+                    <h4>Bài viết mới </h4>
+                    <div>
+                        <h2>Cadillac SRX Limited Mỹ 2007 loại 7 cho mới, full đồ chơi loại cao cấp hai cầu</h2>
+                        <p>Cadillac SRX Limited Mỹ 2007, loại 7 cho full đồ chơi loại cao cấp hai cầu điện nội thất kem đẹp nệm cao cấp âm thanh JBL DVD, loa sub.</p>
+                        <a href = "#">Đọc Thêm <span>>></span></a>
+                    </div>
+                    <img src = "img/right-4.jpg">
+                </article>
+                <article>
+                    <h4>Bài viết mới </h4>
+                    <div>
+                        <h2>Giá lăn bánh Honda City 2019 mới nhất tại Việt Nam</h2>
+                        <p>Honda City là mẫu xe bán chạy bậc nhất phân khúc sedan hạng B tại nước ta hiện nay. Và trong bài viết dưới đây, Oto.com.vn xin gửi đến độc giả bảng giá lăn bánh Honda City mới nhất tại Việt Nam. </p>
+                        <a href = "#">Đọc Thêm <span>>></span></a>
+                    </div>
+                    <img src = "img/right-5.jpg">
+                </article>
+				<article>
+                    <h4>Bài viết mới </h4>
+                    <div>
+                        <h2>Giá lăn bánh Honda City 2019 mới nhất tại Việt Nam</h2>
+                        <p>Honda City là mẫu xe bán chạy bậc nhất phân khúc sedan hạng B tại nước ta hiện nay. Và trong bài viết dưới đây, Oto.com.vn xin gửi đến độc giả bảng giá lăn bánh Honda City mới nhất tại Việt Nam. </p>
+                        <a href = "#">Đọc Thêm <span>>></span></a>
+                    </div>
+                    <img src = "img/right-5.jpg">
+                </article>
+				
+				
+            </section>
+        </main>
+		 
+		<footer>
+			TẠP CHÍ SỐ 1 VỀ XE 
+		</footer>
+		
+		<script src="script.js" async defer></script>
+		
+	</body>
 </html>
